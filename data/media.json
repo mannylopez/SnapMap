@@ -1,0 +1,64 @@
+{
+  "media": [
+    {
+      "day": 26,
+      "location": "San Antonio Palop\u00f3",
+      "description": "Hotel",
+      "filename": "DSC_0897.JPG",
+      "attribution": "Manuel",
+      "latitude": 14.69054511,
+      "longitude": -91.118147,
+      "type": "image"
+    },
+    {
+      "day": 26,
+      "location": "Lago Atitlan",
+      "description": "On the water",
+      "filename": "DSC_0898.JPG",
+      "attribution": "Manuel",
+      "latitude": 14.70985,
+      "longitude": -91.13989,
+      "type": "image"
+    },
+    {
+      "day": 26,
+      "location": "Lago Atitlan",
+      "description": "On the water",
+      "filename": "DSC_0905.JPG",
+      "attribution": "Manuel",
+      "latitude": 14.70985,
+      "longitude": -91.13989,
+      "type": "image"
+    },
+    {
+      "day": 26,
+      "location": "Panajachel",
+      "description": "Market",
+      "filename": "IMG_5625.jpeg",
+      "attribution": "Manuel",
+      "latitude": 14.7402,
+      "longitude": -91.1626,
+      "type": "image"
+    },
+    {
+      "day": 18,
+      "location": "San Pablo",
+      "description": "Fireworks",
+      "filename": "IMG_5147.MOV",
+      "attribution": "Manuel",
+      "latitude": 14.7402,
+      "longitude": -91.1626,
+      "type": "video"
+    },
+    {
+      "day": 27,
+      "location": "Guatemala City",
+      "description": "La Aurora airport",
+      "filename": "DSC_0961.JPG",
+      "attribution": "Manuel",
+      "latitude": 14.5879029,
+      "longitude": -90.53086237,
+      "type": "image"
+    }
+  ]
+}
