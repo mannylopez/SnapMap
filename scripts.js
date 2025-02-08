@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
     .then(response => response.json())
     .then(data => {
       mediaItems = data.media.map(item => ({
-        src: `/images/${item.filename}`,
+        src: `./images/${item.filename}`,
         type: item.type,
         latitude: item.latitude,
         longitude: item.longitude,
@@ -45,12 +45,12 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log(item, index)
     
     // Add GPX
-    if (item.src == "/images/DSC_0898.JPG") {
-      loadGPX('/data/panaOnWater.gpx');
+    if (item.src == "./images/DSC_0898.JPG") {
+      loadGPX('./data/panaOnWater.gpx');
     }
 
-    if (item.src == "/images/DSC_0961.JPG") {
-      loadGPX('/data/panaToGuate.gpx');
+    if (item.src == "./images/DSC_0961.JPG") {
+      loadGPX('./data/panaToGuate.gpx');
     }
 
     // Set map and marker
