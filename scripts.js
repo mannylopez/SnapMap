@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }).addTo(map);
 
   // Fetch the JSON file and populate the mediaItems array
-  fetch('/data/media.json')
+  fetch('./data/media.json')
     .then(response => response.json())
     .then(data => {
       mediaItems = data.media.map(item => ({
