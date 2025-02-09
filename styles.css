@@ -8,6 +8,10 @@ html, body {
   flex-direction: column;
 }
 
+div {
+  display: flex
+}
+
 .nav-button { 
   cursor: pointer; 
   font-size: 14px; 
@@ -22,7 +26,9 @@ html, body {
 
 #photo-container {
   flex: 2; /* Takes 2/3 of the height */
-  overflow: hidden;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  overflow: hidden;         /* Prevent overflow */
 }
 
 #map {
