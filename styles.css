@@ -29,6 +29,7 @@ div {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  border: 0.5rem solid #1d1f1e;
 }
 
 #map {
@@ -45,6 +46,7 @@ div {
   #photo-container {
     flex: 2;
     height: 66vh; /* 2/3 of the viewport height */
+    border: 0.2rem solid #1d1f1e;
   }
 
   #map {
