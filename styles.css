@@ -26,9 +26,9 @@ div {
 
 #photo-container {
   flex: 2; /* Takes 2/3 of the height */
-  justify-content: center;  /* Center horizontally */
-  align-items: center;      /* Center vertically */
-  overflow: hidden;         /* Prevent overflow */
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 #map {
